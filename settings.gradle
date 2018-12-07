@@ -1,1 +1,2 @@
-include ':app', ':JPushExample(1092969)'
+include ':app'
+//, ':JPushExample(1092969)'

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\workspace\\VoiceDemo\\JPushExample(1092969)\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ur\\values-ur.xml",
+            "outputFile": "H:\\Users\\Administrator\\AndroidStudioProjects\\VoiceDemo\\JPushExample(1092969)\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ur\\values-ur.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\3bd25f6e0da4fbb49ea8e6e579b18b1e\\res\\values-ur\\values-ur.xml",
+                    "source": "C:\\Users\\freak\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\70bd5dce6c29ebbece4d29e7a4b625c1\\res\\values-ur\\values-ur.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\b6cdcf2de56e76b67c7f49fee35d7c70\\res\\values-ur\\values-ur.xml",
+                    "source": "C:\\Users\\freak\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\5f76270cf48a392361ad21fac66e07f0\\res\\values-ur\\values-ur.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

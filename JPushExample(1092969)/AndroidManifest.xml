@@ -4,7 +4,7 @@
     android:versionCode="316"
     android:versionName="3.1.6"
     >
-    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="27" />
+    <uses-sdk android:targetSdkVersion="27" />
 
     <!-- Required -->
     <permission

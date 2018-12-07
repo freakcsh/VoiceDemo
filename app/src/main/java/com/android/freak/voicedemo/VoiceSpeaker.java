@@ -74,8 +74,7 @@ public class VoiceSpeaker {
     }
 
     private void exoPlayer(final List<String> list) {
-
-        synchronized (this) {
+        synchronized (this){
             if (mMediaSourceList == null) {
                 mMediaSourceList = new ArrayList<>();
             }
@@ -201,16 +200,7 @@ public class VoiceSpeaker {
                     break;
             }
 
-            mPlayer.prepare(mConcatenatingMediaSource);
-            Logger.e("播放状态" + mPlayer.getPlaybackState());
-            mPlayer.setPlayWhenReady(true);
-            Logger.e("播放状态" + mPlayer.getPlaybackState());
-            try {
-                latch.wait();
-                this.notifyAll();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+
 
 
 
@@ -295,7 +285,19 @@ public class VoiceSpeaker {
             });
 
 
+            mPlayer.prepare(mConcatenatingMediaSource);
+            Logger.e("播放状态" + mPlayer.getPlaybackState());
+            mPlayer.setPlayWhenReady(true);
+            Logger.e("播放状态" + mPlayer.getPlaybackState());
+
+            try {
+                latch.await();
+                this.notifyAll();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
+
     }
 
     private void start(final List<String> list) {
