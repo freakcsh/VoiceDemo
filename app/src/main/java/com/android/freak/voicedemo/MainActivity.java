@@ -251,6 +251,7 @@ public class MainActivity extends AppCompatActivity implements MainHandlerConsta
 if (!TextUtils.isEmpty(getTextMes())){
 
     VoiceSpeaker.getInstance().speak(VoiceTemplate.getDefaultTemplate(getTextMes()));
+//    VoiceSpeaker.getInstance().release();
 }
     }
 }
